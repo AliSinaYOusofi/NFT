@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #191B1F;
+  color: white;
+  /* //background-image: radial-gradient(at 50% 100%, rgb(253, 230, 138), rgb(124, 58, 237), rgb(12, 74, 110)) */
+}
+
+.notable {
+  background-image: radial-gradient(at 50% 100%, rgb(253, 230, 138), rgb(124, 58, 237), rgb(12, 74, 110))
+}
+
+.clamp {
+  line-clamp: 4;
+}
